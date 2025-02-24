@@ -1,0 +1,63 @@
+@keyframes fade-shadow {
+            from {
+                box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+            }
+
+            to {
+                box-shadow: 0 0 20px 5px rgb(255, 0, 0),
+                    0 0 40px 10px rgb(255, 165, 0),
+                    0 0 60px 15px rgb(255, 255, 0),
+                    0 0 80px 20px rgb(0, 255, 0),
+                    0 0 100px 25px rgb(0, 0, 255),
+                    0 0 120px 30px rgb(75, 0, 130),
+                    0 0 140px 35px rgb(238, 130, 238);
+            }
+        }
+
+        @keyframes fade-out-shadow {
+            from {
+                box-shadow: 0 0 20px 5px rgb(255, 0, 0),
+                    0 0 40px 10px rgb(255, 165, 0),
+                    0 0 60px 15px rgb(255, 255, 0),
+                    0 0 80px 20px rgb(0, 255, 0),
+                    0 0 100px 25px rgb(0, 0, 255),
+                    0 0 120px 30px rgb(75, 0, 130),
+                    0 0 140px 35px rgb(238, 130, 238);
+            }
+
+            to {
+                box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+            }
+        }
+
+        @keyframes pride-shadow {
+            0% {
+                box-shadow: 0 0 20px 5px rgb(255, 0, 0),
+                    0 0 40px 10px rgb(255, 165, 0),
+                    0 0 60px 15px rgb(255, 255, 0),
+                    0 0 80px 20px rgb(0, 255, 0),
+                    0 0 100px 25px rgb(0, 0, 255),
+                    0 0 120px 30px rgb(75, 0, 130),
+                    0 0 140px 35px rgb(238, 130, 238);
+            }
+
+            50% {
+                box-shadow: 0 0 20px 5px rgb(238, 130, 238),
+                    0 0 40px 10px rgb(75, 0, 130),
+                    0 0 60px 15px rgb(0, 0, 255),
+                    0 0 80px 20px rgb(0, 255, 0),
+                    0 0 100px 25px rgb(255, 255, 0),
+                    0 0 120px 30px rgb(255, 165, 0),
+                    0 0 140px 35px rgb(255, 0, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 20px 5px rgb(255, 0, 0),
+                    0 0 40px 10px rgb(255, 165, 0),
+                    0 0 60px 15px rgb(255, 255, 0),
+                    0 0 80px 20px rgb(0, 255, 0),
+                    0 0 100px 25px rgb(0, 0, 255),
+                    0 0 120px 30px rgb(75, 0, 130),
+                    0 0 140px 35px rgb(238, 130, 238);
+            }
+        }
